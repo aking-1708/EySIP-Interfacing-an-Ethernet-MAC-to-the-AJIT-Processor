@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="udp_block_axi_buf_recv_final_0_0_synth_1" LaunchDir="C:/Users/User/Downloads/working-1July2021/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/udp_block_axi_buf_recv_final_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="udp_block_app_recv_0_0_synth_1" LaunchDir="C:/Users/User/Downloads/working-1July2021/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/udp_block_app_recv_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="udp_block_app_layer_0_0_synth_1" LaunchDir="C:/Users/User/Downloads/working-1July2021/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/udp_block_app_layer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="udp_block_axi_buf_send_0_0_synth_1" LaunchDir="C:/Users/User/Downloads/working-1July2021/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/udp_block_axi_buf_send_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="udp_block_toplevel_0_0_synth_1" LaunchDir="C:/Users/User/Downloads/working-1July2021/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/udp_block_toplevel_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/User/Downloads/working-1July2021/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="udp_block_axi_buf_recv_final_0_0_synth_1"/>
+		<Parent Id="udp_block_app_recv_0_0_synth_1"/>
+		<Parent Id="udp_block_app_layer_0_0_synth_1"/>
+		<Parent Id="udp_block_axi_buf_send_0_0_synth_1"/>
+		<Parent Id="udp_block_toplevel_0_0_synth_1"/>
+	</Run>
+</Runs>
+

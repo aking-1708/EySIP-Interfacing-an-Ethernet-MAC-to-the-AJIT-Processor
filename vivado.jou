@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jul  1 14:25:17 2021
+# Process ID: 30547
+# Current directory: /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex
+# Command line: vivado -notrace -source /home/saurabh/ethernet/eth_fresh_1July/eth_fresh_1July.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_ex.tcl
+# Log file: /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado.log
+# Journal file: /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source /home/saurabh/ethernet/eth_fresh_1July/eth_fresh_1July.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_ex.tcl -notrace
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -scan_for_includes /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd
+export_ip_user_files -of_objects  [get_files  /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd] -lib_map_path [list {modelsim=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/modelsim} {questa=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/questa} {ies=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/ies} {vcs=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/vcs} {riviera=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/riviera}] -force -quiet
+import_files /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd
+export_ip_user_files -of_objects  [get_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd] -lib_map_path [list {modelsim=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/modelsim} {questa=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/questa} {ies=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/ies} {vcs=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/vcs} {riviera=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/riviera}] -force -quiet
+update_compile_order -fileset sources_1
+open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd}
+add_files -norecurse -scan_for_includes {/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/axi_buf_send.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/axi_buf_recv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/toplevel.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/send_buffer.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/udp_send.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/IP_recv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/arp_send.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/app_layer.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/app_recv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/mac_cache.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/recv_buffer.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/udp_rcv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/arp_rcv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/IP_send2.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/hdl/UDP_Block_wrapper.v}
+import_files -norecurse {/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/axi_buf_send.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/axi_buf_recv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/toplevel.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/send_buffer.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/udp_send.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/IP_recv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/arp_send.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/app_layer.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/app_recv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/mac_cache.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/recv_buffer.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/udp_rcv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/arp_rcv.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/IP_send2.v /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/hdl/UDP_Block_wrapper.v}
+update_compile_order -fileset sources_1
+create_bd_design "udp_block"
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference app_layer app_layer_0
+create_bd_cell -type module -reference app_recv app_recv_0
+create_bd_cell -type module -reference axi_buf_send axi_buf_send_0
+create_bd_cell -type module -reference toplevel toplevel_0
+add_files -norecurse -scan_for_includes /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/new/axi_buf_recv_final.v
+import_files -norecurse /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/new/axi_buf_recv_final.v
+update_compile_order -fileset sources_1
+remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/imports/new/axi_buf_recv.v
+create_bd_cell -type module -reference axi_buf_recv_final axi_buf_recv_final_0
+set_property location {1.5 579 638} [get_bd_cells toplevel_0]
+set_property location {1 89 823} [get_bd_cells axi_buf_send_0]
+connect_bd_net [get_bd_pins app_layer_0/data_valid] [get_bd_pins toplevel_0/data_out_from_app_valid]
+connect_bd_net [get_bd_pins app_layer_0/data_in] [get_bd_pins toplevel_0/data_out_from_app]
+connect_bd_net [get_bd_pins app_layer_0/ip_addr_in] [get_bd_pins toplevel_0/dest_ip_addr]
+connect_bd_net [get_bd_pins app_layer_0/dest_port] [get_bd_pins toplevel_0/dest_port]
+connect_bd_net [get_bd_pins app_layer_0/length_in] [get_bd_pins toplevel_0/data_out_from_app_length]
+startgroup
+make_bd_pins_external  [get_bd_pins app_recv_0/frame_error]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins app_recv_0/activity_flash]
+endgroup
+connect_bd_net [get_bd_pins axi_buf_recv_final_0/data_in] [get_bd_pins toplevel_0/data_in_from_ethernet]
+connect_bd_net [get_bd_pins axi_buf_recv_final_0/data_type] [get_bd_pins toplevel_0/data_in_from_ethernet_type]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_done] [get_bd_pins toplevel_0/axi_ip_done]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_index] [get_bd_pins toplevel_0/axi_ip_index]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_done] [get_bd_pins toplevel_0/axi_arp_done]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_index] [get_bd_pins toplevel_0/axi_arp_index]
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tdata]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tlast]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tvalid]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tready]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/clk]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_send_0/clk]
+endgroup
+delete_bd_objs [get_bd_nets clk_1_1] [get_bd_ports clk_1]
+connect_bd_net [get_bd_ports clk] [get_bd_pins axi_buf_send_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins app_recv_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins toplevel_0/clk]
+save_bd_design
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/reset]
+endgroup
+connect_bd_net [get_bd_ports reset] [get_bd_pins axi_buf_send_0/reset]
+connect_bd_net [get_bd_ports reset] [get_bd_pins app_recv_0/reset]
+connect_bd_net [get_bd_ports reset] [get_bd_pins toplevel_0/reset]
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tdata]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tlast]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tuser]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tvalid]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tready]
+endgroup
+connect_bd_net [get_bd_pins app_recv_0/data_valid] [get_bd_pins toplevel_0/data_in_to_app_valid]
+save_bd_design
+connect_bd_net [get_bd_pins app_recv_0/data] [get_bd_pins toplevel_0/data_in_to_app]
+connect_bd_net [get_bd_pins app_recv_0/dest_port] [get_bd_pins toplevel_0/input_port]
+connect_bd_net [get_bd_pins axi_buf_recv_final_0/data_ack] [get_bd_pins toplevel_0/ack]
+set_property location {2.5 1073 621} [get_bd_cells toplevel_0]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_ready] [get_bd_pins toplevel_0/axi_ip_ready]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_mac] [get_bd_pins axi_buf_send_0/axi_ip_data]
+delete_bd_objs [get_bd_nets Net]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_mac] [get_bd_pins toplevel_0/axi_ip_mac]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_data] [get_bd_pins toplevel_0/axi_ip_data]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_length] [get_bd_pins toplevel_0/axi_ip_length]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_ready] [get_bd_pins toplevel_0/axi_arp_ready]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_mac] [get_bd_pins toplevel_0/axi_arp_mac]
+connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_data] [get_bd_pins toplevel_0/axi_arp_data]
+connect_bd_net [get_bd_pins toplevel_0/ready] [get_bd_pins app_layer_0/udp_ready]
+startgroup
+make_bd_pins_external  [get_bd_pins app_layer_0/enable_pat_gen]
+endgroup
+startgroup
+connect_bd_net [get_bd_ports clk] [get_bd_pins app_layer_0/clk]
+endgroup
+connect_bd_net [get_bd_ports reset] [get_bd_pins app_layer_0/reset]
+save_bd_design
+open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd}
+make_wrapper -files [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -top
+remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/bd/UDP_Block/hdl/UDP_Block_wrapper.v
+remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd
+file delete -force /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/sim_scripts/UDP_Block
+add_files -norecurse /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd
+export_ip_user_files -of_objects  [get_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -lib_map_path [list {modelsim=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/modelsim} {questa=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/questa} {ies=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/ies} {vcs=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/vcs} {riviera=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/riviera}] -force -quiet
+update_compile_order -fileset sources_1
+open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd}
+open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd}
+make_wrapper -files [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -top
+add_files -norecurse /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files  {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_gen.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_mux.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pipe.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_address_swap.v}
+remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_basic_pat_gen.v
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+update_module_reference udp_block_toplevel_0_0
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+generate_target all [get_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd]
+export_ip_user_files -of_objects [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd]
+launch_runs -jobs 6 udp_block_toplevel_0_0_synth_1
+export_simulation -of_objects [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -directory /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/sim_scripts -ip_user_files_dir /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files -ipstatic_source_dir /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/modelsim} {questa=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/questa} {ies=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/ies} {vcs=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/vcs} {riviera=/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet

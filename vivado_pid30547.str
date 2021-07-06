@@ -1,0 +1,1419 @@
+/*
+
+Vivado v2017.1 (64-bit)
+SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+
+Process ID: 30547
+License: Customer
+
+Current time: 	7/1/21 2:25:28 PM IST
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: NAME="Ubuntu"
+OS Version: 5.4.0-65-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 110 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/Xilinx_2017.1/Vivado/2017.1/tps/lnx64/jre
+JVM executable location: 	/home/Xilinx_2017.1/Vivado/2017.1/tps/lnx64/jre/bin/java
+Java library paths: /home/Xilinx_2017.1/Vivado/2017.1/tps/lnx64/libxslt/lib:/home/Xilinx_2017.1/Vivado/2017.1/lib/lnx64.o:/home/Xilinx_2017.1/Vivado/2017.1/tps/lnx64/jre/lib/amd64:/home/Xilinx_2017.1/Vivado/2017.1/tps/lnx64/jre/lib/amd64/server:/home/Xilinx_2017.1/Vivado/2017.1/ids_lite/ISE/lib/lin64:/home/Xilinx_2017.1/Vivado/2017.1/lnx64/tools/dot/lib:/home/Xilinx_2017.1/Vivado/2017.1/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	saurabh
+User home directory: /home/saurabh
+User working directory: /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: /home/Xilinx_2017.1/Vivado
+HDI_APPROOT: /home/Xilinx_2017.1/Vivado/2017.1
+RDI_DATADIR: /home/Xilinx_2017.1/Vivado/2017.1/data
+RDI_BINDIR: /home/Xilinx_2017.1/Vivado/2017.1/bin
+
+User preferences location: /home/saurabh/.Xilinx/Vivado
+Vivado preferences directory: /home/saurabh/.Xilinx/Vivado/2017.1/vivado.xml
+Vivado layouts directory: /home/saurabh/.Xilinx/Vivado/2017.1/layouts
+PlanAhead jar location: 	/home/Xilinx_2017.1/Vivado/2017.1/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-30547-madhav
+
+GUI allocated memory:	173 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 1,013 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// bs:g (cg:JFrame):  Sourcing Tcl script '/home/saurabh/ethernet/eth_fresh_1July/eth_fresh_1July.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_ex.tcl' : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: source /home/saurabh/ethernet/eth_fresh_1July/eth_fresh_1July.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_ex.tcl -notrace 
+// Tcl Message: INFO: [open_example_project] Creating new example project... 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 34 MB (+33173kb) [00:00:04]
+// [Engine Memory]: 986 MB (+882117kb) [00:00:04]
+// [GUI Memory]: 46 MB (+10450kb) [00:00:04]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/Xilinx_2017.1/Vivado/2017.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// TclEventType: BOARD_MODIFIED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 48 MB (+180kb) [00:00:06]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: INFO: [open_example_project] Importing original IP ... INFO: [open_example_project] Generating the example project IP ... INFO: [open_example_project] Adding example synthesis HDL files ... INFO: [open_example_project] Adding example XDC files ... INFO: [open_example_project] Adding simulation HDL files ... 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 53 MB (+2923kb) [00:00:07]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,041 MB. GUI used memory: 36 MB. Current time: 7/1/21 2:25:30 PM IST
+// [Engine Memory]: 1,041 MB (+6232kb) [00:00:12]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: update_compile_order: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 6179.551 ; gain = 10.094 ; free physical = 3265 ; free virtual = 41406 
+// Tcl Message: INFO: [open_example_project] Rebuilding all the top level IPs ... 
+// Tcl Message: INFO: [open_example_project] Open Example Project completed 
+dismissDialog("Sourcing Tcl script '/home/saurabh/ethernet/eth_fresh_1July/eth_fresh_1July.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_ex.tcl'"); // bs:g (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,067 MB. GUI used memory: 36 MB. Current time: 7/1/21 2:25:45 PM IST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v), basic_pat_gen_inst : tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v)]", 8, true); // B:i (D:JPanel, cg:JFrame) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES, "Add Directories"); // a:JButton (C:JPanel, c:g)
+// [GUI Memory]: 56 MB (+221kb) [00:00:54]
+// Elapsed time: 46 seconds
+setFolderChooser("/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 57 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -scan_for_includes /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd 
+// TclEventType: PROJECT_CHANGE
+// c:g (cg:JFrame): Add Sources: addNotify
+// bs:g (c:g):  Add Sources  : addNotify
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,095 MB (+2565kb) [00:01:26]
+dismissDialog("Add Sources"); // bs:g (c:g)
+// [GUI Memory]: 64 MB (+5096kb) [00:01:26]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,097 MB. GUI used memory: 39 MB. Current time: 7/1/21 2:26:51 PM IST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 69 MB (+2333kb) [00:01:29]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 105, 158); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 105, 158); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 105, 158); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 149, 259); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 150, 263); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 588, 101); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 73 MB (+200kb) [00:01:51]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 9, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 9, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 9, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 9, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 9, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd), UDP_Block_axi_buf_recv_final_0_0 (UDP_Block_axi_buf_recv_final_0_0.xci)]", 12, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd} 
+// Tcl Message: ERROR: [BD 41-469] Cannot find top attribute on <bd:repository> element in BD file ERROR: [BD 41-425] Failed to read Diagram <UDP_Block> from BD file </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd> 
+// Tcl Message: ERROR: [Common 17-39] 'open_bd_design' failed due to earlier errors. 
+// a:a (cg:JFrame): Critical Messages: addNotify
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cg:JFrame)
+// [GUI Memory]: 79 MB (+1971kb) [00:02:06]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd), UDP_Block_app_layer_0_0 (UDP_Block_app_layer_0_0.xci)]", 10, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd), UDP_Block_app_layer_0_0 (UDP_Block_app_layer_0_0.xci)]", 10, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd), UDP_Block_app_recv_0_0 (UDP_Block_app_recv_0_0.xci)]", 11, false); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 9); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,117 MB. GUI used memory: 40 MB. Current time: 7/1/21 2:27:45 PM IST
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+// Elapsed time: 13 seconds
+setFileChooser("/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/hdl/UDP_Block_wrapper.v");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+// Elapsed time: 33 seconds
+String[] filenames31467 = {"/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/IP_recv.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/IP_send2.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/app_layer.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/app_recv.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/arp_rcv.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/arp_send.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/axi_buf_recv.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/axi_buf_send.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/mac_cache.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/recv_buffer.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/send_buffer.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/toplevel.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/udp_rcv.v", "/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/new/udp_send.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 57 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 87 MB (+4107kb) [00:03:21]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,156 MB. GUI used memory: 41 MB. Current time: 7/1/21 2:28:46 PM IST
+// [Engine Memory]: 1,156 MB (+5486kb) [00:03:23]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v)]", 9); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v)]", 9); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v)]", 3); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v), UDP_Block_i : UDP_Block (UDP_Block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v), UDP_Block_i : UDP_Block (UDP_Block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+// aD:p (cg:JFrame): Create Block Design: addNotify
+// Elapsed time: 12 seconds
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "udp_block"); // X:JTextField (JPanel:JComponent, aD:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aD:p)
+// 'I' command handler elapsed time: 12 seconds
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Create Block Design"); // aD:p (cg:JFrame)
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: create_bd_design "udp_block" 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  
+// bs:g (cg:JFrame):  Create Block Design : addNotify
+dismissDialog("Create Block Design"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,203 MB. GUI used memory: 45 MB. Current time: 7/1/21 2:29:36 PM IST
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+// [Engine Memory]: 1,246 MB (+34340kb) [00:04:14]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_layer (app_layer.v)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_layer (app_layer.v)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_layer (app_layer.v)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_layer (app_layer.v)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_layer (app_layer.v)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_layer (app_layer.v)]", 6, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD, "Add Module to Block Design"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD
+// bs:g (cg:JFrame):  Add Module : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: create_bd_cell -type module -reference app_layer app_layer_0 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: LOAD_FEATURE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'reset' as interface 'reset'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+dismissDialog("Add Module"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_recv (app_recv.v)]", 7, false); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_recv (app_recv.v)]", 7, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,314 MB (+6192kb) [00:04:47]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_recv (app_recv.v)]", 7, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_recv (app_recv.v)]", 7, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv (axi_buf_recv.v)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_recv (app_recv.v)]", 7, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, app_recv (app_recv.v)]", 7, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD, "Add Module to Block Design"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type module -reference app_recv app_recv_0 
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'reset' as interface 'reset'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv (axi_buf_recv.v)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,331 MB. GUI used memory: 45 MB. Current time: 7/1/21 2:30:26 PM IST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_send (axi_buf_send.v)]", 9, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_send (axi_buf_send.v)]", 9, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD, "Add Module to Block Design"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type module -reference axi_buf_send axi_buf_send_0 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 92 MB (+1109kb) [00:05:15]
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v)]", 3); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v)]", 3); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel (toplevel.v)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD, "Add Module to Block Design"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type module -reference toplevel toplevel_0 
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'reset' as interface 'reset'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,364 MB. GUI used memory: 46 MB. Current time: 7/1/21 2:30:56 PM IST
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv (axi_buf_recv.v)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+// Elapsed time: 36 seconds
+setFileChooser("/home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/new/axi_buf_recv_final.v");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 48 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/new/axi_buf_recv_final.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse /home/saurabh/ethernet/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/new/axi_buf_recv_final.v 
+// [GUI Memory]: 98 MB (+1181kb) [00:06:41]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,382 MB (+1730kb) [00:06:41]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv_final (axi_buf_recv_final.v)]", 9, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv_final (axi_buf_recv_final.v)]", 9, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv (axi_buf_recv.v)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,403 MB. GUI used memory: 47 MB. Current time: 7/1/21 2:32:11 PM IST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv (axi_buf_recv.v)]", 8, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/imports/new/axi_buf_recv.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv_final (axi_buf_recv_final.v)]", 9, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_send (axi_buf_send.v)]", 9, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv_final (axi_buf_recv_final.v)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_recv_final (axi_buf_recv_final.v)]", 8, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD, "Add Module to Block Design"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_MODULE_TO_BD
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_cell -type module -reference axi_buf_recv_final axi_buf_recv_final_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_axis_fifo' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'reset' as interface 'reset'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'rx_axis_fifo'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Tcl Command: 'set_property location {1.5 579 638} [get_bd_cells toplevel_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 579 638} [get_bd_cells toplevel_0] 
+// Tcl Command: 'set_property location {1 89 823} [get_bd_cells axi_buf_send_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 89 823} [get_bd_cells axi_buf_send_0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_layer_0/data_valid] [get_bd_pins toplevel_0/data_out_from_app_valid] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_layer_0/data_in] [get_bd_pins toplevel_0/data_out_from_app] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_layer_0/ip_addr_in] [get_bd_pins toplevel_0/dest_ip_addr] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_layer_0/dest_port] [get_bd_pins toplevel_0/dest_port] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_layer_0/length_in] [get_bd_pins toplevel_0/data_out_from_app_length] 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins app_recv_0/frame_error] 
+// Tcl Message: endgroup 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 49 MB. Current time: 7/1/21 2:34:01 PM IST
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins app_recv_0/activity_flash] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cg:JFrame): Re-customize Module Reference: addNotify
+// Elapsed time: 102 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize Module Reference"); // p:g (cg:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_recv_final_0/data_in] [get_bd_pins toplevel_0/data_in_from_ethernet] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_recv_final_0/data_type] [get_bd_pins toplevel_0/data_in_from_ethernet_type] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_done] [get_bd_pins toplevel_0/axi_ip_done] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_index] [get_bd_pins toplevel_0/axi_ip_index] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_done] [get_bd_pins toplevel_0/axi_arp_done] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_index] [get_bd_pins toplevel_0/axi_arp_index] 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tdata] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tlast] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tvalid] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_send_0/tx_axis_mac_tready] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/clk] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_send_0/clk] 
+// Tcl Message: endgroup 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_nets clk_1_1] [get_bd_ports clk_1] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports clk] [get_bd_pins axi_buf_send_0/clk] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports clk] [get_bd_pins app_recv_0/clk] 
+// Elapsed time: 88 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_buf_send (axi_buf_send.v)]", 9, false); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 103 MB (+571kb) [00:10:24]
+// Tcl Message: connect_bd_net [get_bd_ports clk] [get_bd_pins toplevel_0/clk] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/ui/bd_635a8cf.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,460 MB (+10030kb) [00:10:27]
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,460 MB. GUI used memory: 51 MB. Current time: 7/1/21 2:35:51 PM IST
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/reset] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports reset] [get_bd_pins axi_buf_send_0/reset] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports reset] [get_bd_pins app_recv_0/reset] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports reset] [get_bd_pins toplevel_0/reset] 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tdata] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tlast] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tuser] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tvalid] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_buf_recv_final_0/rx_axis_fifo_tready] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_recv_0/data_valid] [get_bd_pins toplevel_0/data_in_to_app_valid] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/ui/bd_635a8cf.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_recv_0/data] [get_bd_pins toplevel_0/data_in_to_app] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins app_recv_0/dest_port] [get_bd_pins toplevel_0/input_port] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_recv_final_0/data_ack] [get_bd_pins toplevel_0/ack] 
+// Tcl Command: 'set_property location {2.5 1073 621} [get_bd_cells toplevel_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2.5 1073 621} [get_bd_cells toplevel_0] 
+// Elapsed time: 151 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 78, 611, 1152, 884, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_ready] [get_bd_pins toplevel_0/axi_ip_ready] 
+// Elapsed time: 11 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 243, 646, 1152, 884, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_mac] [get_bd_pins axi_buf_send_0/axi_ip_data] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_nets Net] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_mac] [get_bd_pins toplevel_0/axi_ip_mac] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_data] [get_bd_pins toplevel_0/axi_ip_data] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_ip_length] [get_bd_pins toplevel_0/axi_ip_length] 
+// Elapsed time: 61 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 411, 631, 1152, 884, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 739, 537, 1152, 884, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_ready] [get_bd_pins toplevel_0/axi_arp_ready] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,480 MB. GUI used memory: 51 MB. Current time: 7/1/21 2:39:36 PM IST
+// Elapsed time: 17 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 687, 636, 1152, 884, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_mac] [get_bd_pins toplevel_0/axi_arp_mac] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_buf_send_0/axi_arp_data] [get_bd_pins toplevel_0/axi_arp_data] 
+// Elapsed time: 51 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 506, 805, 1152, 884, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins toplevel_0/ready] [get_bd_pins app_layer_0/udp_ready] 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins app_layer_0/enable_pat_gen] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: connect_bd_net [get_bd_ports clk] [get_bd_pins app_layer_0/clk] 
+// Tcl Message: endgroup 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports reset] [get_bd_pins app_layer_0/reset] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/ui/bd_635a8cf.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 57 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4, true); // B:i (D:JPanel, cg:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd} 
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: make_wrapper -files [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -top 
+// Tcl Message: ERROR: [BD 41-469] Cannot find top attribute on <bd:repository> element in BD file ERROR: [BD 41-425] Failed to read Diagram <UDP_Block> from BD file </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd> 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block.v Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block_wrapper.v 
+// Tcl Message: ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors. 
+// HOptionPane Error: 'ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors. (Error Opening Composite File)'
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a:a (cg:JFrame): Critical Messages: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,514 MB. GUI used memory: 52 MB. Current time: 7/1/21 2:42:01 PM IST
+// Elapsed time: 12 seconds
+selectButton("PAResourceAtoD.CompositeBaseCommandHandler_ERROR_OPENING_COMPOSITE_FILE_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 4); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd), udp_block (udp_block.v)]", 5); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block_wrapper (UDP_Block_wrapper.v)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/bd/UDP_Block/hdl/UDP_Block_wrapper.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UDP_Block (UDP_Block.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd 
+// TclEventType: REPORT_IP_STATUS_STALE
+// as:g (cg:JFrame): Remove Sources: addNotify
+// bs:g (as:g):  Remove Sources : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// [Engine Memory]: 1,536 MB (+2223kb) [00:17:17]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 46 MB. Current time: 7/1/21 2:42:41 PM IST
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: file delete -force /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/sim_scripts/UDP_Block 
+dismissDialog("Remove Sources"); // bs:g (as:g)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, c:g)
+// Elapsed time: 30 seconds
+setFileChooser("/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 36 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// bs:g (cg:JFrame):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 10 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bs:g)
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Add Sources"); // bs:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd} 
+// Tcl Message: Adding cell -- user.org:module_ref:app_layer:1.0 - app_layer_0 Adding cell -- user.org:module_ref:app_recv:1.0 - app_recv_0 Adding cell -- user.org:module_ref:axi_buf_send:1.0 - axi_buf_send_0 Adding cell -- user.org:module_ref:toplevel:1.0 - toplevel_0 Adding cell -- user.org:module_ref:axi_buf_recv_final:1.0 - axi_buf_recv_final_0 Successfully read diagram <udp_block> from BD file </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2); // B:i (D:JPanel, cg:JFrame)
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd} 
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block (udp_block.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+// 'X' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,616 MB (+3419kb) [00:19:05]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'udp_block.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block.v Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block_wrapper.v 
+dismissDialog("Create HDL Wrapper"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 49 MB. Current time: 7/1/21 2:44:31 PM IST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block_wrapper (udp_block_wrapper.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block_wrapper (udp_block_wrapper.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block_wrapper (udp_block_wrapper.v)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block_wrapper (udp_block_wrapper.v)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("udp_block_wrapper.v", 87, 291); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("udp_block_wrapper.v", 87, 291); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 87, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 186 seconds
+selectCodeEditor("udp_block_wrapper.v", 139, 428); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 139, 428); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 139, 428); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("udp_block_wrapper.v", 139, 428); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 95, 213); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 309, 339); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 309, 339); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 309, 339); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 354); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 373); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 314, 373); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 40, 105); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 6, 492); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 514, 98); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 580, 97); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 44, 321); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 52, 160); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 55, 170); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 49, 169); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 54, 156); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 54, 156, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 59, 191); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 59, 191, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 321, 186); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 43, 444); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 39, 439); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 34, 206); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 40, 341); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 40, 341); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 43, 305); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,669 MB. GUI used memory: 49 MB. Current time: 7/1/21 2:50:31 PM IST
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, udp_block_wrapper (udp_block_wrapper.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 12 seconds
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 70, 329); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v), udp_module : udp_block_wrapper (udp_block_wrapper.v)]", 8, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v), udp_module : udp_block_wrapper (udp_block_wrapper.v)]", 8, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 130, 324); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "udp_block_wrapper.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// [Engine Memory]: 1,697 MB (+118kb) [00:26:32]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tri_mode_ethernet_mac_0_example_design.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 266, 313); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,697 MB. GUI used memory: 50 MB. Current time: 7/1/21 2:51:56 PM IST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v), axi_pat_gen_inst : tri_mode_ethernet_mac_0_axi_pat_gen (tri_mode_ethernet_mac_0_axi_pat_gen.v)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v), axi_pat_check_inst : tri_mode_ethernet_mac_0_axi_pat_check (tri_mode_ethernet_mac_0_axi_pat_check.v)]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v), axi_mux_inst : tri_mode_ethernet_mac_0_axi_mux (tri_mode_ethernet_mac_0_axi_mux.v)]", 5, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v), axi_pipe_inst : tri_mode_ethernet_mac_0_axi_pipe (tri_mode_ethernet_mac_0_axi_pipe.v)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v), address_swap_inst : tri_mode_ethernet_mac_0_address_swap (tri_mode_ethernet_mac_0_address_swap.v)]", 7, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v), axi_pipe_inst : tri_mode_ethernet_mac_0_axi_pipe (tri_mode_ethernet_mac_0_axi_pipe.v)]", 6, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_gen.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_mux.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pipe.v /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_address_swap.v} 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,729 MB. GUI used memory: 49 MB. Current time: 7/1/21 2:52:26 PM IST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_basic_pat_gen (tri_mode_ethernet_mac_0_basic_pat_gen.v)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_basic_pat_gen.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 250, 306); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 250, 306); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 250, 306); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 252, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 252, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 159, 208); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("tri_mode_ethernet_mac_0_example_design.v", 159, 208); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v), udp_module : udp_block_wrapper (udp_block_wrapper.v)]", 8); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectRadioButton(PAResourceItoN.LaunchPanel_LAUNCH_RUNS_ON_LOCAL_HOST, "Launch runs on local host:"); // a:JRadioButton (JPanel:JComponent, f:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: INFO: [BD 41-1662] The design 'udp_block.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block.v Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block app_layer_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block app_recv_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_buf_send_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block toplevel_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_buf_recv_final_0 . 
+// Tcl Message: Exporting to file /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hw_handoff/udp_block.hwh Generated Block Design Tcl file /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hw_handoff/udp_block_bd.tcl Generated Hardware Definition File /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block.hwdef 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci' is already up-to-date 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,751 MB. GUI used memory: 50 MB. Current time: 7/1/21 2:53:26 PM IST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,780 MB. GUI used memory: 51 MB. Current time: 7/1/21 2:54:21 PM IST
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul  1 14:54:24 2021] Launched synth_1... Run output will be captured here: /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:01:02 . Memory (MB): peak = 6885.223 ; gain = 33.164 ; free physical = 2860 ; free virtual = 41032 
+// 'k' command handler elapsed time: 76 seconds
+// Elapsed time: 62 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,788 MB (+6816kb) [00:29:03]
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Running Submodule Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:00:07 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: RUN_FAILED
+// TclEventType: DG_GRAPH_GENERATED
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block_toplevel_0_0_synth_1 ; udp_block_toplevel_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:00:10 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; xc7k325tffg900-2 ;  ; Vivado Synthesis Defaults", 6, "udp_block_toplevel_0_0_synth_1", 0, false); // V:af (JViewport:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (udp_block_toplevel_0_0_synth_1) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block_toplevel_0_0_synth_1 ; udp_block_toplevel_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:00:10 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; xc7k325tffg900-2 ;  ; Vivado Synthesis Defaults", 6, "udp_block_toplevel_0_0_synth_1", 0, false, false, false, false, false, true); // V:af (JViewport:JComponent, cg:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,844 MB. GUI used memory: 63 MB. Current time: 7/1/21 2:54:41 PM IST
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+//  *** Exceptions that should be ignored by HSystem.debug () - swept under the rug. *** 
+/*
+java.lang.NullPointerException
+*/
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 115 MB (+7463kb) [00:29:35]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+// [Engine Memory]: 1,987 MB (+115048kb) [00:29:41]
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,987 MB. GUI used memory: 64 MB. Current time: 7/1/21 2:55:06 PM IST
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g:JCheckBox (JPanel:JComponent, cg:JFrame): TRUE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd}. ]", 4, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd}. ]", 4, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_bd_design {/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/UDP_Block/UDP_Block.bd}. ]", 4, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, udp_block, udp_block_toplevel_0_0_synth_1, [Common 17-69] Command failed: Vivado Synthesis failed. ]", 20, false); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, udp_block, udp_block_toplevel_0_0_synth_1, [Synth 8-285] failed synthesizing module 'toplevel' [/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/imports/new/toplevel.v:24]. ]", 19); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 25 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, udp_block, udp_block_toplevel_0_0_synth_1, [Synth 8-285] failed synthesizing module 'toplevel' [/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/imports/new/toplevel.v:24]. , [Synth 8-285] failed synthesizing module 'udp_block_toplevel_0_0' [/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/ip/udp_block_toplevel_0_0/synth/udp_block_toplevel_0_0.v:56]. ]", 20, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/ip/udp_block_toplevel_0_0/synth/udp_block_toplevel_0_0.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, udp_block, udp_block_toplevel_0_0_synth_1, [Synth 8-685] variable 'ready' should not be used in output port connection [/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/imports/new/toplevel.v:125]. ]", 18, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/imports/sources_1/imports/new/toplevel.v;-;;-;16;-;line;-;125;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 102, 157); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 102, 157, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("toplevel.v", 164, 205); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 150, 380); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 150, 380, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("toplevel.v", 225, 377); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 230, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 149, 199); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 149, 199, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 311, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 148, 188); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 148, 188, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("toplevel.v", 190, 247); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 190, 247); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("toplevel.v", 141, 394); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 160, 462); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 160, 462, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("toplevel.v", 175, 169); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 175, 169, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("toplevel.v", 124, 173); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 124, 173, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("toplevel.v", 124, 173); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 603, 174); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("toplevel.v", 602, 175, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// [GUI Memory]: 125 MB (+3657kb) [00:31:48]
+selectCodeEditor("toplevel.v", 124, 173); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 132 MB (+1234kb) [00:31:50]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h:k (JPanel:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Refresh Changed Modules : addNotify
+// Tcl Message: update_module_reference udp_block_toplevel_0_0 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 64 MB. Current time: 7/1/21 2:57:21 PM IST
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bs:g)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'reset' as interface 'reset'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: Upgrading '/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd' 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 12 seconds
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: delete_fileset: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 7013.059 ; gain = 0.000 ; free physical = 3097 ; free virtual = 41012 delete_ip_run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 7013.059 ; gain = 0.000 ; free physical = 3097 ; free virtual = 41012 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded udp_block_toplevel_0_0 from toplevel_v1_0 1.0 to toplevel_v1_0 1.0 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 7013.059 ; gain = 0.000 ; free physical = 3097 ; free virtual = 41011 update_module_reference: Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 7013.059 ; gain = 5.016 ; free physical = 3097 ; free virtual = 41011 
+dismissDialog("Refresh Changed Modules"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,038 MB. GUI used memory: 80 MB. Current time: 7/1/21 2:57:40 PM IST
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3, "udp_block", 0, true, false, false, false, false, true); // V:af (JViewport:JComponent, cg:JFrame) - Double Click - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3, "udp_block", 0, true, false, false, false, false, true); // V:af (JViewport:JComponent, cg:JFrame) - Double Click - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Complete ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Current time: 7/1/21 2:57:59 PM IST
+# Process ID: 30547
+# OS: Linux
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Current time: 7/1/21 2:58:00 PM IST
+# Process ID: 30547
+# OS: Linux
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug)
+*/
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: Wrote  : </home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd>  Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block.v Verilog Output written to : /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block app_layer_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block app_recv_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_buf_send_0 . 
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug) 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block toplevel_0 . 
+// TclEventType: FILE_SET_CHANGE
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Current time: 7/1/21 2:58:00 PM IST
+# Process ID: 30547
+# OS: Linux
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Current time: 7/1/21 2:58:00 PM IST
+# Process ID: 30547
+# OS: Linux
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Current time: 7/1/21 2:58:00 PM IST
+# Process ID: 30547
+# OS: Linux
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Current time: 7/1/21 2:58:00 PM IST
+# Process ID: 30547
+# OS: Linux
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug)
+*/
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug) 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_buf_recv_final_0 . 
+// Tcl Message: Exporting to file /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hw_handoff/udp_block.hwh Generated Block Design Tcl file /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hw_handoff/udp_block_bd.tcl Generated Hardware Definition File /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/hdl/udp_block.hwdef 
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug) ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug) ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug) ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/vivado_pid30547.debug) 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci' is already up-to-date 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// aj:a (cg:JFrame): Launch Run Critical Messages: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, aj:a)
+dismissDialog("Launch Run Critical Messages"); // aj:a (cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.HExceptionDialog_CONTINUE, "Continue"); // a:JButton (ButtonPanel:JPanel, X:StandardDialog)
+// 'k' command handler elapsed time: 29 seconds
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Not Started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3); // V:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block_toplevel_0_0_synth_1 ; udp_block_toplevel_0_0 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; xc7k325tffg900-2 ;  ; Vivado Synthesis Defaults", 8, "udp_block_toplevel_0_0_synth_1", 0, false); // V:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block ;  ; Submodule Runs Not Started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jul 01 14:54:23 IST 2021 ; 00:02:30 ;  ;  ;  ; ", 3, "udp_block", 0, true); // V:af (JViewport:JComponent, cg:JFrame) - Node
+selectButton(PAResourceEtoH.ExploreAheadView_LAUNCH_SELECTED_RUNS, "Design Runs_launch_runs"); // B:JideButton (f:CommandBar, cg:JFrame)
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// f:p (cg:JFrame): Launch Runs: addNotify
+// bs:g (f:p):  Starting Design Runs : addNotify
+dismissDialog("Starting Design Runs"); // bs:g (f:p)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for bd-design 'udp_block' - hence not re-generating. 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.srcs/sources_1/bd/udp_block/udp_block.bd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs -jobs 6 udp_block_toplevel_0_0_synth_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul  1 14:58:53 2021] Launched udp_block_toplevel_0_0_synth_1... Run output will be captured here: /home/saurabh/ethernet/final_design/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/udp_block_toplevel_0_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'bi' command handler elapsed time: 9 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,070 MB. GUI used memory: 65 MB. Current time: 7/1/21 2:59:52 PM IST
+// Elapsed time: 233 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tri_mode_ethernet_mac_0_example_design (tri_mode_ethernet_mac_0_example_design.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "udp_block_axi_buf_send_0_0_synth_1 ; udp_block_axi_buf_send_0_0 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 269 ; 223 ; 0.0 ; 0 ; 0 ; Thu Jul 01 14:54:23 IST 2021 ; 00:00:24 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; xc7k325tffg900-2 ;  ; Vivado Synthesis Defaults", 4, "udp_block_axi_buf_send_0_0_synth_1", 0, false); // V:af (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// f:p (cg:JFrame): Launch Runs: addNotify

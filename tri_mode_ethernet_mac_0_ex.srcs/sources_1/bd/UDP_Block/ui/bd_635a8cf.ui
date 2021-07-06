@@ -1,0 +1,63 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port frame_error -pg 1 -y 250 -defaultsOSRD
+preplace port tx_axis_mac_tvalid -pg 1 -y 800 -defaultsOSRD
+preplace port rx_axis_fifo_tuser -pg 1 -y 450 -defaultsOSRD
+preplace port enable_pat_gen -pg 1 -y 60 -defaultsOSRD
+preplace port rx_axis_fifo_tready -pg 1 -y 490 -defaultsOSRD
+preplace port rx_axis_fifo_tvalid -pg 1 -y 470 -defaultsOSRD
+preplace port clk -pg 1 -y 220 -defaultsOSRD
+preplace port rx_axis_fifo_tlast -pg 1 -y 430 -defaultsOSRD
+preplace port tx_axis_mac_tready -pg 1 -y 820 -defaultsOSRD
+preplace port reset -pg 1 -y 240 -defaultsOSRD
+preplace port tx_axis_mac_tlast -pg 1 -y 780 -defaultsOSRD
+preplace port activity_flash -pg 1 -y 270 -defaultsOSRD
+preplace portBus tx_axis_mac_tdata -pg 1 -y 760 -defaultsOSRD
+preplace portBus rx_axis_fifo_tdata -pg 1 -y 410 -defaultsOSRD
+preplace inst app_recv_0 -pg 1 -lvl 1 -y 240 -defaultsOSRD
+preplace inst axi_buf_recv_final_0 -pg 1 -lvl 1 -y 470 -defaultsOSRD
+preplace inst toplevel_0 -pg 1 -lvl 2 -y 620 -defaultsOSRD
+preplace inst axi_buf_send_0 -pg 1 -lvl 1 -y 920 -defaultsOSRD
+preplace inst app_layer_0 -pg 1 -lvl 1 -y 50 -defaultsOSRD
+preplace netloc toplevel_0_axi_arp_mac 1 0 3 -180 1070 NJ 1070 1320
+preplace netloc axi_buf_send_0_tx_axis_mac_tdata 1 1 2 NJ 860 1420J
+preplace netloc rx_axis_fifo_tvalid_1 1 0 1 N
+preplace netloc axi_buf_send_0_axi_ip_done 1 1 1 290
+preplace netloc app_layer_0_length_in 1 1 1 300
+preplace netloc toplevel_0_axi_ip_length 1 0 3 -220 1090 NJ 1090 1400
+preplace netloc toplevel_0_ack 1 0 3 -210 750 280J 790 1350
+preplace netloc app_recv_0_activity_flash 1 1 2 NJ 250 1410J
+preplace netloc toplevel_0_axi_arp_ready 1 0 3 -190 1080 NJ 1080 1370
+preplace netloc toplevel_0_axi_ip_data 1 0 3 -200 1050 NJ 1050 1380
+preplace netloc enable_pat_gen_1 1 0 1 N
+preplace netloc axi_buf_recv_final_0_rx_axis_fifo_tready 1 0 3 -210 340 NJ 340 1430J
+preplace netloc rx_axis_fifo_tuser_1 1 0 1 N
+preplace netloc rx_axis_fifo_tlast_1 1 0 1 N
+preplace netloc axi_buf_send_0_tx_axis_mac_tvalid 1 1 2 NJ 900 1440J
+preplace netloc toplevel_0_axi_ip_mac 1 0 3 -240 1100 NJ 1100 1410
+preplace netloc toplevel_0_data_in_to_app_valid 1 0 3 -220 760 270J 810 1300
+preplace netloc clk_1 1 0 2 -240 600 250J
+preplace netloc axi_buf_send_0_axi_arp_done 1 1 1 330
+preplace netloc app_recv_0_frame_error 1 1 2 NJ 230 1430J
+preplace netloc toplevel_0_ready 1 0 3 -210 140 NJ 140 1390
+preplace netloc toplevel_0_axi_ip_ready 1 0 3 -220 780 260J 800 1340
+preplace netloc toplevel_0_data_in_to_app 1 0 3 -210 150 NJ 150 1330
+preplace netloc toplevel_0_axi_arp_data 1 0 3 -210 790 250J 820 1310
+preplace netloc toplevel_0_input_port 1 0 3 -210 330 NJ 330 1360
+preplace netloc rx_axis_fifo_tdata_1 1 0 1 N
+preplace netloc axi_buf_send_0_tx_axis_mac_tlast 1 1 2 NJ 880 1430J
+preplace netloc axi_buf_send_0_axi_arp_index 1 1 1 350
+preplace netloc axi_buf_send_0_axi_ip_index 1 1 1 310
+preplace netloc app_layer_0_dest_port 1 1 1 320
+preplace netloc app_layer_0_ip_addr_in 1 1 1 340
+preplace netloc reset_1 1 0 2 -230 610 260J
+preplace netloc tx_axis_mac_tready_1 1 0 2 -250J 1060 250
+preplace netloc app_layer_0_data_valid 1 1 1 370
+preplace netloc axi_buf_recv_final_0_data_type 1 1 1 330
+preplace netloc axi_buf_recv_final_0_data_in 1 1 1 350
+preplace netloc app_layer_0_data_in 1 1 1 360
+levelinfo -pg 1 -270 40 1070 1480 -top -40 -bot 1110
+",
+}
+0

@@ -1,0 +1,68 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.560881",
+   "Default View_TopLeft":"-727,-622",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -lvl 0 -x -520 -y -40 -defaultsOSRD
+preplace port reset_0 -pg 1 -lvl 0 -x -520 -y -20 -defaultsOSRD
+preplace port tx_axis_mac_tlast_0 -pg 1 -lvl 5 -x 1650 -y 240 -defaultsOSRD
+preplace port tx_axis_mac_tvalid_0 -pg 1 -lvl 5 -x 1650 -y 260 -defaultsOSRD
+preplace port tx_axis_mac_tready_0 -pg 1 -lvl 0 -x -520 -y 280 -defaultsOSRD
+preplace port enable_pat_gen_0 -pg 1 -lvl 0 -x -520 -y 0 -defaultsOSRD
+preplace port frame_error_0 -pg 1 -lvl 5 -x 1650 -y 170 -defaultsOSRD
+preplace port activity_flash_0 -pg 1 -lvl 5 -x 1650 -y 190 -defaultsOSRD
+preplace port rx_axis_fifo_tlast_0 -pg 1 -lvl 0 -x -520 -y -110 -defaultsOSRD
+preplace port rx_axis_fifo_tuser_0 -pg 1 -lvl 0 -x -520 -y -90 -defaultsOSRD
+preplace port rx_axis_fifo_tvalid_0 -pg 1 -lvl 0 -x -520 -y -70 -defaultsOSRD
+preplace port rx_axis_fifo_tready_0 -pg 1 -lvl 5 -x 1650 -y -50 -defaultsOSRD
+preplace portBus tx_axis_mac_tdata_0 -pg 1 -lvl 5 -x 1650 -y 220 -defaultsOSRD
+preplace portBus rx_axis_fifo_tdata_0 -pg 1 -lvl 0 -x -520 -y -130 -defaultsOSRD
+preplace inst app_recv_0 -pg 1 -lvl 1 -x -250 -y 180 -defaultsOSRD
+preplace inst app_layer_0 -pg 1 -lvl 1 -x -250 -y -80 -defaultsOSRD
+preplace inst axi_buf_send_0 -pg 1 -lvl 4 -x 1380 -y 280 -defaultsOSRD
+preplace inst toplevel_0 -pg 1 -lvl 2 -x 250 -y 50 -defaultsOSRD
+preplace inst axi_buf_recv_final_0 -pg 1 -lvl 3 -x 881 -y -70 -defaultsOSRD
+preplace netloc app_layer_0_data_valid 1 1 1 -20J -120n
+preplace netloc app_layer_0_data_in 1 1 1 -30J -100n
+preplace netloc app_layer_0_ip_addr_in 1 1 1 -40J -80n
+preplace netloc app_layer_0_dest_port 1 1 1 -60J -60n
+preplace netloc app_layer_0_length_in 1 1 1 -70J -40n
+preplace netloc toplevel_0_data_in_to_app_valid 1 0 3 -420 290 NJ 290 510
+preplace netloc toplevel_0_data_in_to_app 1 0 3 -410 300 NJ 300 470
+preplace netloc toplevel_0_input_port 1 0 3 -430 80 -80J 270 460
+preplace netloc clk_1 1 0 4 -440 20 -50 -130 540 -250 1140
+preplace netloc reset_1 1 0 4 -460 -190 -10 -140 560 -240 1120
+preplace netloc axi_buf_recv_final_0_data_in 1 1 3 10 -280 NJ -280 1070
+preplace netloc axi_buf_recv_final_0_data_type 1 1 3 20 -270 NJ -270 1060
+preplace netloc toplevel_0_ack 1 2 1 510 -60n
+preplace netloc toplevel_0_axi_ip_ready 1 2 2 470J -260 1130
+preplace netloc toplevel_0_axi_ip_mac 1 2 2 500J -230 1110
+preplace netloc toplevel_0_axi_ip_data 1 2 2 520J -220 1100
+preplace netloc toplevel_0_axi_ip_length 1 2 2 530J -210 1090
+preplace netloc toplevel_0_axi_arp_ready 1 2 2 550J 90 1070
+preplace netloc toplevel_0_axi_arp_mac 1 2 2 510J 70 1080
+preplace netloc toplevel_0_axi_arp_data 1 2 2 NJ 80 1060
+preplace netloc axi_buf_send_0_axi_ip_done 1 1 4 0 -300 NJ -300 NJ -300 1590
+preplace netloc axi_buf_send_0_axi_ip_index 1 1 4 0 260 560J 130 NJ 130 1580
+preplace netloc axi_buf_send_0_axi_arp_done 1 1 4 10 420 NJ 420 NJ 420 1570
+preplace netloc axi_buf_send_0_axi_arp_index 1 1 4 20 250 550J 120 NJ 120 1600
+preplace netloc axi_buf_send_0_tx_axis_mac_tdata 1 4 1 N 220
+preplace netloc axi_buf_send_0_tx_axis_mac_tlast 1 4 1 N 240
+preplace netloc axi_buf_send_0_tx_axis_mac_tvalid 1 4 1 N 260
+preplace netloc tx_axis_mac_tready_0_1 1 0 5 NJ 280 NJ 280 570J 140 NJ 140 1570
+preplace netloc enable_pat_gen_0_1 1 0 1 -450 -70n
+preplace netloc app_recv_0_frame_error 1 1 4 -90J 240 540J 110 NJ 110 1610J
+preplace netloc app_recv_0_activity_flash 1 1 4 -100J 230 530J 100 NJ 100 1620J
+preplace netloc rx_axis_fifo_tdata_0_1 1 0 3 -480J -180 NJ -180 550J
+preplace netloc rx_axis_fifo_tlast_0_1 1 0 3 -500J -230 NJ -230 490J
+preplace netloc rx_axis_fifo_tuser_0_1 1 0 3 -490J -220 NJ -220 510J
+preplace netloc rx_axis_fifo_tvalid_0_1 1 0 3 -470J -210 NJ -210 480J
+preplace netloc axi_buf_recv_final_0_rx_axis_fifo_tready 1 2 3 570 -290 1150J -50 NJ
+preplace netloc toplevel_0_ready 1 0 3 -430 -200 NJ -200 460
+levelinfo -pg 1 -520 -250 250 881 1380 1650
+pagesize -pg 1 -db -bbox -sgen -730 -540 1870 600
+"
+}
+0
